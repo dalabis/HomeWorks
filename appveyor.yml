@@ -7,6 +7,7 @@ environment:
   - solution_path: Homework_3\StackCalculator\StackCalculator.sln
   - solution_path: Homework_4\TreeCalculator\TreeCalculator.sln
   - solution_path: Homework_4\UniqueList\UniqueList.sln
+  - solution_path: Homework_6\6_1\6_1.sln
 
 before_build:
   - nuget restore %solution_path%
